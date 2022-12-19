@@ -11,9 +11,4 @@ public class TestJenkins extends BaseTest {
         Assert.assertTrue(true);
     }
 
-    @Test(description = "Test should be false")
-    public static void testShouldBeFalse() {
-        logger.info("Test should be false");
-        Assert.assertTrue(false);
-    }
 }
